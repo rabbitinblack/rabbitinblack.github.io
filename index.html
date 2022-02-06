@@ -1,122 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/reset.css">
-  <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <meta charset="UTF-8">
-  <title>Codecademy: Fotomatic Project</title>
+  <title>Rabbitinblack</title>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="content">
-      <a href="index.html" class="desktop logo">Fotomatic</a>
-      <nav class="desktop">
-        <ul>
-          <li><a href="#">Product detail</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
-        </ul>
-      </nav>
-      <nav class="mobile">
-        <ul>
-          <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
-          <li><a href="#" class="button">Join us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+    <figure class="avatar">
+      <img src="./img/avatar.jpg" alt="Rabbitinblack">
+    </figure>
+    <main class="main">
+      <address class="address">
+        <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4231 9.29323C11.4231 7.87353 10.2728 6.72314 8.85409 6.72314C7.43438 6.72314 6.284 7.87353 6.284 9.29323C6.284 10.7119 7.43438 11.8623 8.85409 11.8623C10.2728 11.8623 11.4231 10.7119 11.4231 9.29323Z" stroke="#212121" stroke-width="1.54174" stroke-linecap="round" stroke-linejoin="round"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85316 20.0849C7.62134 20.0849 1.14496 14.8413 1.14496 9.35774C1.14496 5.06486 4.59548 1.58398 8.85316 1.58398C13.1108 1.58398 16.5624 5.06486 16.5624 9.35774C16.5624 14.8413 10.085 20.0849 8.85316 20.0849Z" stroke="#212121" stroke-width="1.54174" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Hiroshima, Japan
+      </address>
 
-  <!-- Main Content -->
-  <div class="main-content">
+      <h1 class="name">I am <strong>Rabbitinblack</strong></h1>
 
-    <!-- Sign Up Section -->
-    <div id="sign-up-section" class="banner">
-      <div id="sign-up-cta">
-        <div class="content center">
-          <div class="header">
-            <h2 class="cursive">Instant</h2>
-            <h1 class="striking">FORMAT CAMERA</h1>
-          </div>
-          <div class="email">
-            <span>
-              Email us to request a demo and be in our waiting list for the <strong>Febuary 2017</strong> release!
-            </span>
-            <div class="button">Join the waiting list</div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <p class="description">I'm a 17 year old UX/UI Designer who is passionate about movies and making dreams come true, after all, if you can dream it, you can do it!</p>
 
-    <!-- Features Section -->
-    <div id="features-section">
-      <div class="feature">
-        <div class="center">
-          <div class="image-container">
-            <img src="./resources/images/feature-1.png" />
-          </div>
-          <div class="content">
-            <h2>Advanced, automatic, instant</h2>
-            <h3>Shutter speed, apperture and flash output adjust automatically</h3>
-          </div>
-        </div>
-      </div>
-      <div class="feature">
-        <div class="center">
-          <div class="image-container">
-            <img src="./resources/images/feature-2.png" />
-          </div>
-          <div class="content">
-            <h2>Beautifully crafted inside-out</h2>
-            <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</h3>
-          </div>
-        </div>
-      </div>
-    </div>
+      <h3 class="title">Follow me on my social networks :)</h3>
 
-    <!-- Filters Section -->
-    <div id="filters-section">
-      <div class="content center">
-        <h2>Over 20+ filters to choose from</h2>
-        <h3>Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</h3>
-      </div>
-      <div class="images-container">
-        <div class="image-container">
-          <img src="./resources/images/filter-1.png" />
-        </div>
-        <div class="image-container">
-          <img src="./resources/images/filter-2.png" />
-        </div>
-        <div class="image-container">
-          <img src="./resources/images/filter-3.png" />
-        </div>
-        <div class="image-container extra">
-          <img src="./resources/images/filter-4.png" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Quotes Section -->
-    <div id="quotes-section">
-      <div class="content center">
-        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
-        <img class="quote-citation" src="./resources/images/photography-logo.png" />
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-      <div class="content">
-        <span class="copyright">© 2016  Fotomatic, All Rights Reserved</span>
-        <span class="location">Designed in NYC</span>
-      </div>
-    </footer>
-
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.5">
+              <path d="M15.645 3.4353C19.7835 3.4353 20.2737 3.45129 21.9085 3.52588C23.6726 3.60629 25.3093 3.9594 26.5686 5.21925C27.828 6.47863 28.1811 8.11533 28.262 9.87943C28.3366 11.5137 28.3526 12.0039 28.3526 16.1429C28.3526 20.2819 28.3366 20.7716 28.262 22.4063C28.1816 24.1704 27.8285 25.8071 26.5686 27.0665C25.3093 28.3259 23.6721 28.679 21.9085 28.7599C20.2742 28.8345 19.784 28.8505 15.645 28.8505C11.506 28.8505 11.0158 28.8345 9.38157 28.7599C7.61747 28.6795 5.98077 28.3264 4.72139 27.0665C3.46202 25.8071 3.10891 24.1704 3.02802 22.4063C2.95343 20.7711 2.93793 20.2809 2.93793 16.1424C2.93793 12.0039 2.95391 11.5137 3.0285 9.87894C3.10891 8.11485 3.46202 6.47815 4.72188 5.21877C5.98125 3.95939 7.61796 3.60629 9.38205 3.5254C11.0163 3.4508 11.5065 3.4353 15.645 3.4353ZM15.645 0.642395C11.4353 0.642395 10.9078 0.660317 9.25418 0.735879C6.73543 0.850676 4.5228 1.46777 2.74611 3.24397C0.970879 5.01969 0.353301 7.23183 0.238504 9.75155C0.162941 11.4052 0.14502 11.9327 0.14502 16.1424C0.14502 20.3521 0.162941 20.8796 0.238504 22.5332C0.353301 25.052 0.970394 27.2646 2.7466 29.0413C4.52232 30.817 6.73494 31.4346 9.25466 31.5494C10.9078 31.6245 11.4353 31.6424 15.645 31.6424C19.8547 31.6424 20.3822 31.6245 22.0359 31.5489C24.5541 31.4341 26.7672 30.817 28.5439 29.0408C30.3196 27.2651 30.9372 25.0525 31.052 22.5328C31.1271 20.8796 31.145 20.3521 31.145 16.1424C31.145 11.9327 31.1271 11.4052 31.0515 9.75155C30.9367 7.2328 30.3196 5.02018 28.5434 3.24349C26.7677 1.46777 24.5551 0.850192 22.0354 0.735395C20.3822 0.660317 19.8547 0.642395 15.645 0.642395Z" fill="#212121"/>
+              <path d="M15.645 8.18314C11.2493 8.18314 7.68579 11.7467 7.68579 16.1424C7.68579 20.5381 11.2493 24.1016 15.645 24.1016C20.0407 24.1016 23.6043 20.5381 23.6043 16.1424C23.6043 11.7467 20.0407 8.18314 15.645 8.18314ZM15.645 21.3092C12.7916 21.3092 10.4782 18.9958 10.4782 16.1424C10.4782 13.2889 12.7916 10.9756 15.645 10.9756C18.4985 10.9756 20.8119 13.2889 20.8119 16.1424C20.8119 18.9958 18.4985 21.3092 15.645 21.3092Z" fill="#212121"/>
+              <path d="M23.919 9.72829C24.9463 9.72829 25.779 8.89553 25.779 7.86828C25.779 6.84102 24.9463 6.00827 23.919 6.00827C22.8918 6.00827 22.059 6.84102 22.059 7.86828C22.059 8.89553 22.8918 9.72829 23.919 9.72829Z" fill="#212121"/>
+              </g>
+            </svg>
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </main>
   </div>
 </body>
 </html>
