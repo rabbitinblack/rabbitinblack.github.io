@@ -50,7 +50,10 @@ h6 {
 }
 
 .main {
-	text-align: center;
+	margin-top: var(--spacing--xl);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .address {
@@ -62,6 +65,7 @@ h6 {
 }
 
 .name {
+	margin-top: 0;
 	font-weight: normal;
 }
 
@@ -97,5 +101,7 @@ h6 {
 
 	.main {
 		text-align: left;
+		margin-top: 0;
+		align-items: flex-start;
 	}
 }
