@@ -84,10 +84,14 @@ img {
 
 .company-name {
 	text-align: center;
+	margin-top: 1em;
 }
 
 .main-navigation {
-	margin-bottom: 24px;
+	background: rgb(48 48 48);
+	position: sticky;
+	top: 0;
+	z-index: 3;
 }
 
 .main-navigation > .menu {
@@ -99,6 +103,21 @@ img {
 	justify-content: space-between;
 	font-size: 1.5rem;
 	text-align: center;
+}
+
+.main-navigation > .menu > .menu-item {
+	flex: 1 1 0;
+}
+
+.main-navigation > .menu > .menu-item a {
+	display: block;
+	color: rgb(255 255 255);
+	padding: 16px 8px;
+	text-decoration: none;
+}
+
+.main-navigation > .menu > .menu-item a:hover {
+	background: rgb(255 255 255 / 30%);
 }
 
 .section {
