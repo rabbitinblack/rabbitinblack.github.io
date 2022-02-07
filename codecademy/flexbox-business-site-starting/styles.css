@@ -1,0 +1,250 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 12px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	line-height: 1.48;
+	color: rgb(48 48 48);
+}
+
+a,
+a:visited {
+	color: rgb(48 48 48);
+}
+
+a:hover {
+	color: rgb(48 48 48 / 50%);
+}
+
+a:active {
+	color: rgb(48 48 48 / 70%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Nunito', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	position: relative;
+	max-width: 1280px;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+
+.background {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.company-name {
+	text-align: center;
+}
+
+.main-navigation {
+	margin-bottom: 24px;
+}
+
+.main-navigation > .menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	gap: 24px;
+	justify-content: space-between;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.section {
+	position: relative;
+}
+
+#mission .background {
+	filter: grayscale(1);
+}
+
+#mission .wrapper {
+	position: relative;
+	width: 100%;
+	padding: 128px 24px;
+	background: rgb(0 0 0 / 50%);
+}
+
+#mission .title,
+#mission .sub-title {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#mission .title {
+	margin-bottom: 1em;
+}
+
+#portfolio .container {
+	padding-top: 128px;
+	padding-bottom: 128px;
+}
+
+.portfolio-header {
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.portfolio-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.portfolio-list .portfolio-item {
+	position: relative;
+	flex-basis: 100%;
+}
+
+.portfolio-list .portfolio-item a {
+	text-decoration: none;
+}
+
+.portfolio-list .portfolio-item .title {
+	margin: 0;
+	padding: 128px 24px;
+	position: relative;
+	text-align: center;
+	background: rgb(0 0 0 / 50%);
+	color: #fff;
+	transition: all 0.5s ease;
+	text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+
+.portfolio-list .portfolio-item a:hover .title,
+.portfolio-list .portfolio-item a:active .title {
+	background: rgb(0 0 0 / 25%);
+	text-shadow: 0 0 0;
+}
+
+#investmentteam {
+	color: #FFFFFF;
+}
+
+#investmentteam .container {
+	padding-top: 128px;
+	padding-bottom: 128px;
+}
+
+#investmentteam .background {
+	filter: grayscale(1);
+}
+
+.investmentteam-header {
+	text-align: center;
+	text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+
+.team-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 48px;
+}
+
+.team-list .team-item {
+	text-align: center;
+	text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+
+.team-list .team-item .avatar {
+	margin: 0 0 1em;
+}
+
+.team-list .team-item .avatar img {
+	object-fit: cover;
+	aspect-ratio: 1;
+	width: 100%;
+	height: 100%;
+	clip-path: circle(50%);
+}
+
+.footer {
+	padding-top: 128px;
+	padding-bottom: 128px;
+	text-align: center;
+}
+
+.footer .email,
+.footer .telephone {
+	font-size: 1.5rem;
+}
+
+.footer .email a,
+.footer .telephone a {
+	text-decoration: none;
+}
+
+@media ( min-width: 768px ) {
+	.portfolio-list .portfolio-item {
+		flex-basis: 50%;
+	}
+
+	.team-list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media ( min-width: 992px ) {
+	html {
+		font-size: 16px;
+	}
+}

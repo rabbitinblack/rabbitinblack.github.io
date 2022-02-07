@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Home Page with Flexbox</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="header container">
+  <h1 class="company-name">
+    The RABBITINBLACK Enterprise
+  </h1>
+
+  <nav class="main-navigation">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="#mission">
+          Mission Statement
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#portfolio">
+          Portfolio
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#investmentteam">
+          Investment Team
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main">
+  <section id="mission" class="section">
+    <img src="./img/banner.webp" alt="Mission Statement Background" class="background">
+    <div class="wrapper">
+      <h2 class="title">The RABBITINBLACK Enterprise</h2>
+      <h3 class="sub-title">Our fund is committed to the furthering entrepreneurs in the mobility sector.</h3>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <header class="portfolio-header">
+        <h2 class="title">Our Mobility Portfolio</h2>
+        <h3 class="sub-title">Impacting diverse sectors of mobility to better the human experience and the world we inhabit</h3>
+      </header>
+      <article class="article">
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <a href="#">
+              <img src="./img/airplane.webp" alt="Rabbit Airplane Background" class="background">
+              <h3 class="title">Rabbit Airplane</h3>
+            </a>
+          </li>
+
+          <li class="portfolio-item">
+            <a href="#">
+              <img src="./img/automobile.webp" alt="Rabbit Automobile Background" class="background">
+              <h3 class="title">Rabbit Automobile</h3>
+            </a>
+          </li>
+
+          <li class="portfolio-item">
+            <a href="#">
+              <img src="./img/lane.webp" alt="Rabbit Lane Background" class="background">
+              <h3 class="title">Rabbit Lane</h3>
+            </a>
+          </li>
+
+          <li class="portfolio-item">
+            <a href="#">
+              <img src="./img/tire.webp" alt="Rabbit Tire Background" class="background">
+              <h3 class="title">Rabbit Tire</h3>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="investmentteam" class="section">
+    <img src="./img/team.webp" alt="Investment Team Background" class="background">
+
+    <div class="container">
+      <header class="investmentteam-header">
+        <h2 class="title">Our Team</h2>
+      </header>
+
+      <article class="article">
+        <ul class="team-list">
+          <li class="team-item">
+            <figure class="avatar">
+              <img src="./img/avatar-1.webp" alt="Alex Lasker Avatar">
+            </figure>
+            <h3 class="name">Alex Lasker</h3>
+            <h4 class="position">C.E.O. - Founder and Principal Investor</h4>
+          </li>
+
+          <li class="team-item">
+            <figure class="avatar">
+              <img src="./img/avatar-2.webp" alt="Lisa Fischer Avatar">
+            </figure>
+            <h3 class="name">Lisa Fischer</h3>
+            <h4 class="position">Partner - Research & Development</h4>
+          </li>
+
+          <li class="team-item">
+            <figure class="avatar">
+              <img src="./img/avatar-3.webp" alt="Omar Carlsen Avatar">
+            </figure>
+            <h3 class="name">Omar Carlsen</h3>
+            <h4 class="position">Partner - Partnerships & Marketing</h4>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer container">
+  <section class="contact">
+    <h2 class="title">The RABBITINBLACK Enterprise</h2>
+    <p class="email"><a href="mailto:contact@rabbitinblack.enterprise">contact@rabbitinblack.enterprise</a></p>
+    <p class="telephone"><a href="tel:1234567890">123-456-7890</a></p>
+  </section>
+
+  <section class="copyright">
+    <p>Copyright The RABBITINBLACK Enterprises 2022</p>
+  </section>
+</footer>
+</body>
+</html>
